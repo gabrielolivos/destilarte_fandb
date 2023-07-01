@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destilarte</title>
+    <link rel="stylesheet" href="./assets/CSS/styles.css">
+    <script src="https://kit.fontawesome.com/86dfe4377b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header"> <!-- navbar-->
+        <img src="./assets/IMG/Logo1a1.png" alt="logo" id="logosup">
+        <div class="divNav">
+        <nav class="navbar nav_items" id="_items">
+          <a class="inicionavbar" href="">Inicio</a>
+          <a class="productosnavbar" href="ROUTES/productos.html">Productos</a> 
+          <a class="productosnavbar" target="blank" href="ROUTES/accesoEmpleados.html">Acceso Empleados</a>         
+        </nav>
+
+        <div class="carrito">
+            <a href=""><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+        </div>
+      </div>
+        <div class="nav_toggle" id="_toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+    </header>
+    <section class="sectionVideo content">
+
+        <div class="section-video">
+            <video src="./assets/video/banner.mp4" autoplay loop muted poster="#" class="videoPortada "></video>
+        </div>
+
+        <div class="section-content">
+            <div class="letraBlanca espacioIzquierda">
+                <p class="espacioIzquierda">DESTIL</p>
+                <p>PASION </p>
+            </div>
+            <div class="letraDorada">
+                <p>ARTE</p>
+                <p >DESTILADA</p>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+
+
+    </section>
+    <section class="sugeridas">
+        <div class="sutit">
+            <p>SUGERIDAS DEL MES</p>
+        </div>
+        <div class="carrousel">
+            <div class="grande">
+                <img src="./assets/IMG/Group5.jpg" alt="imagen 1" class ="imgcar">
+                <img src="./assets/IMG/Group7.jpg" alt="imagen 2" class ="imgcar">
+                <img src="./assets/IMG/Group9.jpg" alt="imagen 3" class ="imgcar">
+            </div>
+            <ul class="puntos">
+                <li class="punto activo"></li>
+                <li class="punto"></li>
+                <li class="punto"></li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="api">
+        <div class="apicont inactive">
+            <div>
+                <p id="apitext1">PROBA ALEATORIAMENTE</p>
+                <p> UNA DE NUESTRAS RECETAS!</p>
+            </div>    
+            <button class="botonapi">
+            HACE CLIC
+            </button>
+            <p class="tituloDrink"></p>
+            <img class="imgDrink" src="" alt=".">
+            <a class="linkDrink" href=""></a>
+        </div>
+    </section>
+
+    <footer class="footer inactive">   
+      <div class="columnasx3" id="columna1">
+              <div class="logo" >
+                 <img src="./assets/IMG/Logo1a1.png" id="logoinf" alt="DestilArte tienda de licores">
+                 <br>
+              </div>
+              <div class="redes">
+                <br>
+                <p> Redes Sociales</p>
+                <br>
+                  <a href="https://www.instagram.com/DestilArteq/" target="_blank"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+                  <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <br>
+                </div>
+                <div id="divcopyright">
+                  <p id="copyright">© 2023. <b>Destilarte</b>. Grupo Q. Todos los derechos reservados.</p> 
+              </div>
+        </div>
+
+        <div class="columnasx3" id="columna2">
+          <p class="pcontacto"> Contáctanos </p>
+          <br>
+          <form class="formulario" id="formulario" method="get">
+            <div class="form_container">
+              <input type="Text" class="form_input" placeholder="Nombre:" id="vnombre" name="Nombre">
+              <input type ="email" class="form_input" placeholder=" Email:" id="vemail" name="Email">
+              <textarea class="form_input form_input_msge" placeholder="Mensaje:" id="vmsje" name= "Mensaje"></textarea>
+              <input type="submit" class="form_env" value="Enviar" id="venviar">
+               <p class ="avisos" id="avisos"> </p>
+               <script src="Assets/JS/validar.js"></script>
+            </div>
+          </form>
+        </div>
+
+    
+        <div class="columnasx3" id="eframe">
+          <p class="pmapa"> Nuestra ubicación </p>
+           <br>
+          <iframe class= "resp_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26277.593719863897!2d-58.430766999999996!3d-34.58647659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58f32f9e553%3A0x9a1250962f1d2998!2sUriarte%201736%2C%20C1414DAT%20CABA!5e0!3m2!1ses-419!2sar!4v1683008656711!5m2!1ses-419!2sar" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </footer>
+      <script src="Assets/JS/script1.js"></script>
+</body>
+
+</html>
