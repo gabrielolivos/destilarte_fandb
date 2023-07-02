@@ -10,7 +10,7 @@ nombre:"",
 imagen:"",
 stock:0,
 precio:0,
-url:'http://gabrielo.pythonanywhere.com/productos/'+id,
+url:'https://gabrielo.pythonanywhere.com/productos/'+id,
 }
 },
 methods: {

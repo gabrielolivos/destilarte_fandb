@@ -1,5 +1,5 @@
 window.onload=function(){
-fetch("http://gabrielo.pythonanywhere.com/productos")
+fetch("https://gabrielo.pythonanywhere.com/productos")
     .then(function(respuesta){
         return respuesta.json()
     })
